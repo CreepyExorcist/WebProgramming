@@ -1,54 +1,50 @@
 body {
     margin: 0 auto;
+    height: 100%;
     text-align: center;
+    background-color: rgba(247, 247, 247, 1);
 }
 
 .header {
     width: 100%;
-    height: 74px;
 }
 
 .underheader {
-    width: 62%;
+    width: 65%;
     height: 40px;
     margin: 17px 250px;
 }
 
-ul {
+.menu {
     list-style-type: none;
     display: inline;
     margin-left: 423px;
-    font-family: Oxygen;
+    font-family: Oxygen, sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 20px;
-    letter-spacing: 0.6000000238418579px;
+    letter-spacing: 0.6px;
     text-align: left;
     text-transform: uppercase;
 }
 
-li {
+.menu__element {
     display:inline;
     margin: 10px 20px;
 }
 
-.menu__element{
-    font-size: 11px;
-}
-
-svg {
+.escape {
     margin-top: 7px;
     vertical-align: bottom;
 }
 
 .title {
-    margin: 163px 250px;
-    width: 62%;
-    height: 159px;
+    margin: 89px 250px;
+    width: 940px;
 }
 
-h1 {
-    font-family: Lora;
+.hightitle {
+    font-family: Lora, sans-serif;
     font-size: 50px;
     font-weight: 400;
     line-height: 51px;
@@ -56,8 +52,8 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    font-family: Oxygen;
+.lowtitle {
+    font-family: Oxygen, sans-serif;
     font-size: 17px;
     font-weight: 400;
     line-height: 20px;
@@ -68,15 +64,12 @@ h2 {
 
 .main {
     width: 100%;
-    height: 1706px;
-    
 }
 
-p{
+.maintext {
     width: 66%;
-    height: 1431px;
     margin: 140px 240px;
-    font-family: Oxygen;
+    font-family: Oxygen, sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 35px;
@@ -86,7 +79,6 @@ p{
 
 .footer {
     width: 100%;
-    height: 74px;
     background-image: url(Background.png);
 }
 
@@ -108,25 +100,20 @@ p{
 .underfooter ul {
     list-style-type: none;
     display: inline;
-    margin-left: 423px;
-    font-family: Oxygen;
+    margin-left: 410px;
+    font-family: Oxygen, sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 20px;
-    letter-spacing: 0.6000000238418579px;
+    letter-spacing: 0.6px;
     text-align: left;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.6);
-    ;
-}
-
-.underfooter li{
-    display:inline;
-    margin: 10px 20px;
 }
 
 .underfooter .menu__element{
-    font-size: 11px;
+    display:inline;
+    margin: 10px 20px;
 }
 
 .escapefoot{
@@ -134,6 +121,6 @@ p{
     vertical-align: bottom;
 }
 
-img {
+.NorthendLights {
     width: 100%;
 }
